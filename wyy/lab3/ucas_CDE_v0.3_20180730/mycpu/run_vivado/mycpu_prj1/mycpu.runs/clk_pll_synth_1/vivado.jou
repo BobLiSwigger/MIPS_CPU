@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Oct 27 20:04:26 2019
+# Process ID: 22598
+# Current directory: /home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mycpu_verify/run_vivado/mycpu_prj1/mycpu.runs/clk_pll_synth_1
+# Command line: vivado -log clk_pll.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_pll.tcl
+# Log file: /home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mycpu_verify/run_vivado/mycpu_prj1/mycpu.runs/clk_pll_synth_1/clk_pll.vds
+# Journal file: /home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mycpu_verify/run_vivado/mycpu_prj1/mycpu.runs/clk_pll_synth_1/vivado.jou
+#-----------------------------------------------------------
+source clk_pll.tcl -notrace

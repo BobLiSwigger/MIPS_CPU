@@ -1,0 +1,129 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.inst_ram.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+==============================================================
+Test begin!
+        [  22000 ns] Test is running, debug_wb_pc = 0xbfc1f834
+----[  25935 ns] Number 8'd01 Functional Test Point PASS!!!
+        [  32000 ns] Test is running, debug_wb_pc = 0xbfc589f4
+        [  42000 ns] Test is running, debug_wb_pc = 0xbfc591c4
+        [  52000 ns] Test is running, debug_wb_pc = 0xbfc59994
+        [  62000 ns] Test is running, debug_wb_pc = 0xbfc5a164
+        [  72000 ns] Test is running, debug_wb_pc = 0xbfc5a934
+----[  78675 ns] Number 8'd02 Functional Test Point PASS!!!
+        [  82000 ns] Test is running, debug_wb_pc = 0xbfc1b530
+        [  92000 ns] Test is running, debug_wb_pc = 0xbfc1bd00
+        [ 102000 ns] Test is running, debug_wb_pc = 0xbfc1c4d0
+        [ 112000 ns] Test is running, debug_wb_pc = 0xbfc1cca0
+----[ 119395 ns] Number 8'd03 Functional Test Point PASS!!!
+        [ 122000 ns] Test is running, debug_wb_pc = 0xbfc397f8
+        [ 132000 ns] Test is running, debug_wb_pc = 0xbfc3a250
+        [ 142000 ns] Test is running, debug_wb_pc = 0xbfc3acc0
+        [ 152000 ns] Test is running, debug_wb_pc = 0xbfc3b730
+        [ 162000 ns] Test is running, debug_wb_pc = 0xbfc3c1a0
+        [ 172000 ns] Test is running, debug_wb_pc = 0xbfc3cb14
+        [ 182000 ns] Test is running, debug_wb_pc = 0xbfc3d3d4
+        [ 192000 ns] Test is running, debug_wb_pc = 0xbfc3dc64
+        [ 202000 ns] Test is running, debug_wb_pc = 0xbfc3e4f4
+        [ 212000 ns] Test is running, debug_wb_pc = 0xbfc3ed84
+        [ 222000 ns] Test is running, debug_wb_pc = 0xbfc3f62c
+        [ 232000 ns] Test is running, debug_wb_pc = 0xbfc3ff18
+        [ 242000 ns] Test is running, debug_wb_pc = 0xbfc4098c
+        [ 252000 ns] Test is running, debug_wb_pc = 0xbfc41420
+        [ 262000 ns] Test is running, debug_wb_pc = 0xbfc41eb0
+        [ 272000 ns] Test is running, debug_wb_pc = 0xbfc42938
+----[ 276595 ns] Number 8'd04 Functional Test Point PASS!!!
+        [ 282000 ns] Test is running, debug_wb_pc = 0xbfc2b720
+        [ 292000 ns] Test is running, debug_wb_pc = 0xbfc2bfb0
+        [ 302000 ns] Test is running, debug_wb_pc = 0xbfc2c840
+        [ 312000 ns] Test is running, debug_wb_pc = 0xbfc2d0e8
+        [ 322000 ns] Test is running, debug_wb_pc = 0xbfc2d978
+        [ 332000 ns] Test is running, debug_wb_pc = 0xbfc2e1d0
+        [ 342000 ns] Test is running, debug_wb_pc = 0xbfc2eb10
+        [ 352000 ns] Test is running, debug_wb_pc = 0xbfc2f580
+        [ 362000 ns] Test is running, debug_wb_pc = 0xbfc2fff0
+        [ 372000 ns] Test is running, debug_wb_pc = 0xbfc30a58
+        [ 382000 ns] Test is running, debug_wb_pc = 0xbfc314c8
+        [ 392000 ns] Test is running, debug_wb_pc = 0xbfc31e40
+        [ 402000 ns] Test is running, debug_wb_pc = 0xbfc326dc
+        [ 412000 ns] Test is running, debug_wb_pc = 0xbfc32f50
+        [ 422000 ns] Test is running, debug_wb_pc = 0xbfc33808
+        [ 432000 ns] Test is running, debug_wb_pc = 0xbfc340a4
+        [ 442000 ns] Test is running, debug_wb_pc = 0xbfc34918
+----[ 447615 ns] Number 8'd05 Functional Test Point PASS!!!
+        [ 452000 ns] Test is running, debug_wb_pc = 0xbfc2a174
+        [ 462000 ns] Test is running, debug_wb_pc = 0xbfc2a820
+        [ 472000 ns] Test is running, debug_wb_pc = 0xbfc2aea4
+----[ 478735 ns] Number 8'd06 Functional Test Point PASS!!!
+        [ 482000 ns] Test is running, debug_wb_pc = 0xbfc008c4
+        [ 492000 ns] Test is running, debug_wb_pc = 0xbfc01094
+        [ 502000 ns] Test is running, debug_wb_pc = 0xbfc01864
+        [ 512000 ns] Test is running, debug_wb_pc = 0xbfc02034
+        [ 522000 ns] Test is running, debug_wb_pc = 0xbfc02804
+----[ 531415 ns] Number 8'd07 Functional Test Point PASS!!!
+        [ 532000 ns] Test is running, debug_wb_pc = 0xbfc02f8c
+        [ 542000 ns] Test is running, debug_wb_pc = 0xbfc0375c
+        [ 552000 ns] Test is running, debug_wb_pc = 0xbfc03f2c
+        [ 562000 ns] Test is running, debug_wb_pc = 0xbfc046fc
+        [ 572000 ns] Test is running, debug_wb_pc = 0xbfc04ecc
+----[ 578155 ns] Number 8'd08 Functional Test Point PASS!!!
+        [ 582000 ns] Test is running, debug_wb_pc = 0xbfc37cb8
+        [ 592000 ns] Test is running, debug_wb_pc = 0xbfc38488
+        [ 602000 ns] Test is running, debug_wb_pc = 0xbfc38c58
+        [ 612000 ns] Test is running, debug_wb_pc = 0xbfc39428
+----[ 613875 ns] Number 8'd09 Functional Test Point PASS!!!
+        [ 622000 ns] Test is running, debug_wb_pc = 0xbfc433f0
+        [ 632000 ns] Test is running, debug_wb_pc = 0xbfc43bc0
+        [ 642000 ns] Test is running, debug_wb_pc = 0xbfc44390
+----[ 649595 ns] Number 8'd10 Functional Test Point PASS!!!
+        [ 652000 ns] Test is running, debug_wb_pc = 0xbfc05528
+        [ 662000 ns] Test is running, debug_wb_pc = 0xbfc05cf8
+        [ 672000 ns] Test is running, debug_wb_pc = 0xbfc064c8
+        [ 682000 ns] Test is running, debug_wb_pc = 0xbfc06c98
+----[ 688035 ns] Number 8'd11 Functional Test Point PASS!!!
+        [ 692000 ns] Test is running, debug_wb_pc = 0xbfc1d4bc
+        [ 702000 ns] Test is running, debug_wb_pc = 0xbfc1db60
+        [ 712000 ns] Test is running, debug_wb_pc = 0xbfc1e200
+        [ 722000 ns] Test is running, debug_wb_pc = 0xbfc1e870
+----[ 722735 ns] Number 8'd12 Functional Test Point PASS!!!
+        [ 732000 ns] Test is running, debug_wb_pc = 0xbfc45134
+        [ 742000 ns] Test is running, debug_wb_pc = 0xbfc459e8
+        [ 752000 ns] Test is running, debug_wb_pc = 0xbfc4628c
+        [ 762000 ns] Test is running, debug_wb_pc = 0xbfc46b44
+        [ 772000 ns] Test is running, debug_wb_pc = 0xbfc47404
+        [ 782000 ns] Test is running, debug_wb_pc = 0xbfc47ca0
+        [ 792000 ns] Test is running, debug_wb_pc = 0xbfc48560
+        [ 802000 ns] Test is running, debug_wb_pc = 0xbfc48dfc
+        [ 812000 ns] Test is running, debug_wb_pc = 0xbfc496b8
+        [ 822000 ns] Test is running, debug_wb_pc = 0xbfc49f58
+----[ 831355 ns] Number 8'd13 Functional Test Point PASS!!!
+        [ 832000 ns] Test is running, debug_wb_pc = 0xbfc4ec28
+        [ 842000 ns] Test is running, debug_wb_pc = 0xbfc4f48c
+        [ 852000 ns] Test is running, debug_wb_pc = 0xbfc4fd24
+        [ 862000 ns] Test is running, debug_wb_pc = 0xbfc5059c
+        [ 872000 ns] Test is running, debug_wb_pc = 0xbfc50e2c
+        [ 882000 ns] Test is running, debug_wb_pc = 0xbfc51698
+        [ 892000 ns] Test is running, debug_wb_pc = 0xbfc51f10
+        [ 902000 ns] Test is running, debug_wb_pc = 0xbfc52788
+        [ 912000 ns] Test is running, debug_wb_pc = 0xbfc52fec
+        [ 922000 ns] Test is running, debug_wb_pc = 0xbfc53884
+        [ 932000 ns] Test is running, debug_wb_pc = 0xbfc540fc
+        [ 942000 ns] Test is running, debug_wb_pc = 0xbfc5498c
+        [ 952000 ns] Test is running, debug_wb_pc = 0xbfc551f8
+        [ 962000 ns] Test is running, debug_wb_pc = 0xbfc55a70
+----[ 971975 ns] Number 8'd14 Functional Test Point PASS!!!
+        [ 972000 ns] Test is running, debug_wb_pc = 0xbfc562e4
+        [ 982000 ns] Test is running, debug_wb_pc = 0xbfc14cec
+        [ 992000 ns] Test is running, debug_wb_pc = 0xbfc15570
+        [1002000 ns] Test is running, debug_wb_pc = 0xbfc15e1c
+        [1012000 ns] Test is running, debug_wb_pc = 0xbfc166ac
+        [1022000 ns] Test is running, debug_wb_pc = 0xbfc16f3c
+        [1032000 ns] Test is running, debug_wb_pc = 0xbfc177cc
+        [1042000 ns] Test is running, debug_wb_pc = 0xbfc1805c
+        [1052000 ns] Test is running, debug_wb_pc = 0xbfc188e8
+        [1062000 ns] Test is running, debug_wb_pc = 0xbfc1916c

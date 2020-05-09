@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="data_ram_synth_1" LaunchDir="/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/mycpu/lab3-1/ucas_CDE_v0.3_20180730/mycpu_verify/run_vivado/mycpu_prj1/mycpu.runs/data_ram_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

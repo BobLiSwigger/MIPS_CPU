@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat May  9 19:47:47 2020
+# Process ID: 803
+# Current directory: /home/misukee/repositories/MIPS_CPU/wyy/lab3/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.runs/data_ram_synth_1
+# Command line: vivado -log data_ram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source data_ram.tcl
+# Log file: /home/misukee/repositories/MIPS_CPU/wyy/lab3/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.runs/data_ram_synth_1/data_ram.vds
+# Journal file: /home/misukee/repositories/MIPS_CPU/wyy/lab3/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.runs/data_ram_synth_1/vivado.jou
+#-----------------------------------------------------------
+source data_ram.tcl -notrace

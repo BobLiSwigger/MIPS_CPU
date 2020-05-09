@@ -1,0 +1,625 @@
+
+*** Running vivado
+    with args -log soc_lite_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source soc_lite_top.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source soc_lite_top.tcl -notrace
+Command: synth_design -top soc_lite_top -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11799 
+WARNING: [Synth 8-2292] literal value truncated to fit in 32 bits [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/fetch.v:52]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1405.797 ; gain = 69.395 ; free physical = 957 ; free virtual = 11329
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'soc_lite_top' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/soc_lite_top.v:57]
+	Parameter SIMULATION bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'clk_pll' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.runs/synth_1/.Xil/Vivado-11771-MISUKEE/realtime/clk_pll_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_pll' (1#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.runs/synth_1/.Xil/Vivado-11771-MISUKEE/realtime/clk_pll_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mycpu_top' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.srcs/sources_1/new/mycpu_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fetch' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/fetch.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'fetch' (2#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/fetch.v:9]
+INFO: [Synth 8-6157] synthesizing module 'decode' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/decode.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'decode' (3#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/decode.v:8]
+INFO: [Synth 8-6157] synthesizing module 'exe' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/exe.v:8]
+INFO: [Synth 8-6157] synthesizing module 'alu' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/alu.v:8]
+INFO: [Synth 8-6157] synthesizing module 'adder' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/adder.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (4#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/adder.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (5#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/alu.v:8]
+INFO: [Synth 8-6157] synthesizing module 'multiply' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/multiply.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'multiply' (6#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/multiply.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'exe' (7#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/exe.v:8]
+INFO: [Synth 8-6157] synthesizing module 'mem' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mem.v:8]
+INFO: [Synth 8-226] default block is never used [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mem.v:90]
+INFO: [Synth 8-226] default block is never used [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mem.v:108]
+INFO: [Synth 8-6155] done synthesizing module 'mem' (8#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mem.v:8]
+INFO: [Synth 8-6157] synthesizing module 'wb' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/wb.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'wb' (9#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/wb.v:10]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/regfile.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (10#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/regfile.v:8]
+WARNING: [Synth 8-3848] Net WB_wdest in module/entity mycpu_top does not have driver. [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.srcs/sources_1/new/mycpu_top.v:269]
+INFO: [Synth 8-6155] done synthesizing module 'mycpu_top' (11#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.srcs/sources_1/new/mycpu_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'inst_ram' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.runs/synth_1/.Xil/Vivado-11771-MISUKEE/realtime/inst_ram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'inst_ram' (12#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.runs/synth_1/.Xil/Vivado-11771-MISUKEE/realtime/inst_ram_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bridge_1x2' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/BRIDGE/bridge_1x2.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'bridge_1x2' (13#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/BRIDGE/bridge_1x2.v:50]
+INFO: [Synth 8-6157] synthesizing module 'data_ram' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.runs/synth_1/.Xil/Vivado-11771-MISUKEE/realtime/data_ram_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'data_ram' (14#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.runs/synth_1/.Xil/Vivado-11771-MISUKEE/realtime/data_ram_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'confreg' [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/CONFREG/confreg.v:70]
+	Parameter SIMULATION bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'confreg' (15#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/CONFREG/confreg.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'soc_lite_top' (16#1) [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/soc_lite_top.v:57]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[31]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[30]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[29]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[28]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[27]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[26]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[25]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[24]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[23]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[22]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[21]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[20]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[19]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[18]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[17]
+WARNING: [Synth 8-3331] design confreg has unconnected port conf_addr[16]
+WARNING: [Synth 8-3331] design decode has unconnected port WB_wdest[4]
+WARNING: [Synth 8-3331] design decode has unconnected port WB_wdest[3]
+WARNING: [Synth 8-3331] design decode has unconnected port WB_wdest[2]
+WARNING: [Synth 8-3331] design decode has unconnected port WB_wdest[1]
+WARNING: [Synth 8-3331] design decode has unconnected port WB_wdest[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1445.922 ; gain = 109.520 ; free physical = 966 ; free virtual = 11340
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1445.922 ; gain = 109.520 ; free physical = 970 ; free virtual = 11344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1445.922 ; gain = 109.520 ; free physical = 970 ; free virtual = 11344
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/xilinx_ip/data_ram/data_ram/data_ram_in_context.xdc] for cell 'data_ram'
+Finished Parsing XDC File [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/xilinx_ip/data_ram/data_ram/data_ram_in_context.xdc] for cell 'data_ram'
+Parsing XDC File [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/xilinx_ip/inst_ram/inst_ram/inst_ram_in_context.xdc] for cell 'inst_ram'
+Finished Parsing XDC File [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/xilinx_ip/inst_ram/inst_ram/inst_ram_in_context.xdc] for cell 'inst_ram'
+Parsing XDC File [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/xilinx_ip/clk_pll/clk_pll/clk_pll_in_context.xdc] for cell 'clk_pll'
+Finished Parsing XDC File [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/xilinx_ip/clk_pll/clk_pll/clk_pll_in_context.xdc] for cell 'clk_pll'
+Parsing XDC File [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/soc_lite.xdc]
+WARNING: [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/soc_lite.xdc:5]
+WARNING: [Vivado 12-508] No pins matched 'clk_pll/inst/plle2_adv_inst/CLKOUT1'. [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/soc_lite.xdc:91]
+WARNING: [Vivado 12-508] No pins matched 'clk_pll/inst/plle2_adv_inst/CLKOUT0'. [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/soc_lite.xdc:92]
+Finished Parsing XDC File [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/soc_lite.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/soc_lite.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/soc_lite_top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/soc_lite.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/soc_lite_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/soc_lite_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1830.969 ; gain = 0.000 ; free physical = 653 ; free virtual = 11028
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1830.969 ; gain = 0.000 ; free physical = 654 ; free virtual = 11029
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1830.969 ; gain = 0.000 ; free physical = 654 ; free virtual = 11029
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1830.969 ; gain = 0.000 ; free physical = 654 ; free virtual = 11029
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'data_ram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'inst_ram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1830.969 ; gain = 494.566 ; free physical = 742 ; free virtual = 11117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1830.969 ; gain = 494.566 ; free physical = 742 ; free virtual = 11117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  /home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/xilinx_ip/clk_pll/clk_pll/clk_pll_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  /home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/rtl/xilinx_ip/clk_pll/clk_pll/clk_pll_in_context.xdc, line 5).
+Applied set_property DONT_TOUCH = true for data_ram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for inst_ram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for clk_pll. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 1830.969 ; gain = 494.566 ; free physical = 744 ; free virtual = 11119
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'confreg'
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state4" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state5" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state4" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state5" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "btn_key_tmp13" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "num_csn" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "num_a_g" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state3" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state4" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state4" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state5" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state5" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE4 |                              000 |                              000
+                  iSTATE |                              101 |                              001
+                 iSTATE0 |                              100 |                              010
+                 iSTATE1 |                              011 |                              011
+                 iSTATE2 |                              010 |                              100
+                 iSTATE3 |                              001 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'confreg'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 1830.969 ; gain = 494.566 ; free physical = 732 ; free virtual = 11108
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input     30 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	              167 Bit    Registers := 1     
+	              154 Bit    Registers := 1     
+	              118 Bit    Registers := 1     
+	               64 Bit    Registers := 2     
+	               32 Bit    Registers := 24    
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 26    
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 38    
+	  21 Input     32 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 13    
+	   6 Input     16 Bit        Muxes := 1     
+	  17 Input     16 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	  21 Input      5 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 16    
+	   6 Input      3 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module soc_lite_top 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module fetch 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     30 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+Module decode 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     30 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 11    
+	   2 Input      5 Bit        Muxes := 3     
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+Module alu 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+Module multiply 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+Module exe 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+Module mem 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     24 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module wb 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+Module mycpu_top 
+Detailed RTL Component Info : 
++---Registers : 
+	              167 Bit    Registers := 1     
+	              154 Bit    Registers := 1     
+	              118 Bit    Registers := 1     
+	               64 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
+Module bridge_1x2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module confreg 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 19    
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 13    
++---Muxes : 
+	  21 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 13    
+	   6 Input     16 Bit        Muxes := 1     
+	  17 Input     16 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	  21 Input      5 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 16    
+	   6 Input      3 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design decode has unconnected port WB_wdest[4]
+WARNING: [Synth 8-3331] design decode has unconnected port WB_wdest[3]
+WARNING: [Synth 8-3331] design decode has unconnected port WB_wdest[2]
+WARNING: [Synth 8-3331] design decode has unconnected port WB_wdest[1]
+WARNING: [Synth 8-3331] design decode has unconnected port WB_wdest[0]
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[0]' (FDRE) to 'confreg/simu_flag_reg[1]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[16]' (FDRE) to 'confreg/simu_flag_reg[1]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[24]' (FDRE) to 'confreg/simu_flag_reg[1]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[1]' (FDRE) to 'confreg/simu_flag_reg[2]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[17]' (FDRE) to 'confreg/simu_flag_reg[2]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[25]' (FDRE) to 'confreg/simu_flag_reg[2]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[2]' (FDRE) to 'confreg/simu_flag_reg[3]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[18]' (FDRE) to 'confreg/simu_flag_reg[3]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[26]' (FDRE) to 'confreg/simu_flag_reg[3]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[3]' (FDRE) to 'confreg/simu_flag_reg[4]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[19]' (FDRE) to 'confreg/simu_flag_reg[4]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[27]' (FDRE) to 'confreg/simu_flag_reg[4]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[4]' (FDRE) to 'confreg/simu_flag_reg[5]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[20]' (FDRE) to 'confreg/simu_flag_reg[5]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[28]' (FDRE) to 'confreg/simu_flag_reg[5]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[5]' (FDRE) to 'confreg/simu_flag_reg[6]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[21]' (FDRE) to 'confreg/simu_flag_reg[6]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[29]' (FDRE) to 'confreg/simu_flag_reg[6]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[6]' (FDRE) to 'confreg/simu_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[22]' (FDRE) to 'confreg/simu_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[30]' (FDRE) to 'confreg/simu_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[8]' (FDRE) to 'confreg/simu_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[9]' (FDRE) to 'confreg/simu_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[10]' (FDRE) to 'confreg/simu_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[11]' (FDRE) to 'confreg/simu_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[12]' (FDRE) to 'confreg/simu_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[13]' (FDRE) to 'confreg/simu_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[14]' (FDRE) to 'confreg/simu_flag_reg[7]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[7]' (FDRE) to 'confreg/simu_flag_reg[15]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[15]' (FDRE) to 'confreg/simu_flag_reg[23]'
+INFO: [Synth 8-3886] merging instance 'confreg/simu_flag_reg[23]' (FDRE) to 'confreg/simu_flag_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\confreg/simu_flag_reg[31] )
+INFO: [Synth 8-3886] merging instance 'cpu/WB_module/cause_exc_code_r_reg[0]' (FDRE) to 'cpu/WB_module/cause_exc_code_r_reg[4]'
+INFO: [Synth 8-3886] merging instance 'cpu/WB_module/cause_exc_code_r_reg[1]' (FDRE) to 'cpu/WB_module/cause_exc_code_r_reg[4]'
+INFO: [Synth 8-3886] merging instance 'cpu/WB_module/cause_exc_code_r_reg[2]' (FDRE) to 'cpu/WB_module/cause_exc_code_r_reg[4]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (cpu/WB_module/\cause_exc_code_r_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (cpu/WB_module/\cause_exc_code_r_reg[4] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 1830.969 ; gain = 494.566 ; free physical = 694 ; free virtual = 11076
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++--------------+------------+-----------+----------------------+---------------+
+|Module Name   | RTL Object | Inference | Size (Depth x Width) | Primitives    | 
++--------------+------------+-----------+----------------------+---------------+
+|cpu/rf_module | rf_reg     | Implied   | 32 x 32              | RAM32M x 12   | 
++--------------+------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_pll/cpu_clk' to pin 'clk_pll/bbstub_cpu_clk/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_pll/timer_clk' to pin 'clk_pll/bbstub_timer_clk/O'
+WARNING: [Synth 8-565] redefining clock 'clk'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:39 . Memory (MB): peak = 1830.969 ; gain = 494.566 ; free physical = 577 ; free virtual = 10958
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:46 . Memory (MB): peak = 1925.117 ; gain = 588.715 ; free physical = 518 ; free virtual = 10899
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++--------------+------------+-----------+----------------------+---------------+
+|Module Name   | RTL Object | Inference | Size (Depth x Width) | Primitives    | 
++--------------+------------+-----------+----------------------+---------------+
+|cpu/rf_module | rf_reg     | Implied   | 32 x 32              | RAM32M x 12   | 
++--------------+------------+-----------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:48 . Memory (MB): peak = 1925.117 ; gain = 588.715 ; free physical = 515 ; free virtual = 10897
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 1925.117 ; gain = 588.715 ; free physical = 515 ; free virtual = 10897
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 1925.117 ; gain = 588.715 ; free physical = 515 ; free virtual = 10897
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 1925.117 ; gain = 588.715 ; free physical = 515 ; free virtual = 10896
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:48 . Memory (MB): peak = 1925.117 ; gain = 588.715 ; free physical = 515 ; free virtual = 10896
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 1925.117 ; gain = 588.715 ; free physical = 515 ; free virtual = 10896
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 1925.117 ; gain = 588.715 ; free physical = 515 ; free virtual = 10896
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_pll       |         1|
+|2     |inst_ram      |         1|
+|3     |data_ram      |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |clk_pll  |     1|
+|2     |data_ram |     1|
+|3     |inst_ram |     1|
+|4     |CARRY4   |   112|
+|5     |LUT1     |   137|
+|6     |LUT2     |    92|
+|7     |LUT3     |   285|
+|8     |LUT4     |   272|
+|9     |LUT5     |   342|
+|10    |LUT6     |   711|
+|11    |RAM32M   |    12|
+|12    |FDRE     |  1534|
+|13    |FDSE     |    21|
+|14    |IBUF     |    15|
+|15    |OBUF     |    39|
++------+---------+------+
+
+Report Instance Areas: 
++------+----------------------+-----------+------+
+|      |Instance              |Module     |Cells |
++------+----------------------+-----------+------+
+|1     |top                   |           |  3638|
+|2     |  bridge_1x2          |bridge_1x2 |    47|
+|3     |  confreg             |confreg    |   939|
+|4     |  cpu                 |mycpu_top  |  2531|
+|5     |    EXE_module        |exe        |   733|
+|6     |      multiply_module |multiply   |   733|
+|7     |    IF_module         |fetch      |   514|
+|8     |    MEM_module        |mem        |     3|
+|9     |    WB_module         |wb         |   269|
+|10    |    rf_module         |regfile    |    19|
++------+----------------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 1925.117 ; gain = 588.715 ; free physical = 515 ; free virtual = 10896
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 1925.117 ; gain = 203.668 ; free physical = 571 ; free virtual = 10953
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 1925.125 ; gain = 588.715 ; free physical = 571 ; free virtual = 10953
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 124 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1925.125 ; gain = 0.000 ; free physical = 515 ; free virtual = 10896
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+115 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:50 . Memory (MB): peak = 1925.125 ; gain = 588.828 ; free physical = 606 ; free virtual = 10984
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1925.125 ; gain = 0.000 ; free physical = 606 ; free virtual = 10984
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.runs/synth_1/soc_lite_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file soc_lite_top_utilization_synth.rpt -pb soc_lite_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat May  9 17:47:56 2020...

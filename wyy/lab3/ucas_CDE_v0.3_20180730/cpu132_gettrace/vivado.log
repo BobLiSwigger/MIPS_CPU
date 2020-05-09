@@ -1,0 +1,634 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Nov  3 11:38:47 2019
+# Process ID: 17030
+# Current directory: /home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace
+# Command line: vivado
+# Log file: /home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/vivado.log
+# Journal file: /home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'E:/xjz/ucas/ucas17_18_20180730/lab/lab3/ucas_CDE_v0.2/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'inst_ram' generated file not found '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/xilinx_ip/inst_ram/inst_ram.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'inst_ram' generated file not found '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/xilinx_ip/inst_ram/inst_ram_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'inst_ram' generated file not found '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/xilinx_ip/inst_ram/inst_ram_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'inst_ram' generated file not found '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/xilinx_ip/inst_ram/inst_ram_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'inst_ram' generated file not found '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/xilinx_ip/inst_ram/inst_ram_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'data_ram' generated file not found '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/xilinx_ip/data_ram/data_ram.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'data_ram' generated file not found '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/xilinx_ip/data_ram/data_ram_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'data_ram' generated file not found '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/xilinx_ip/data_ram/data_ram_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'data_ram' generated file not found '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/xilinx_ip/data_ram/data_ram_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'data_ram' generated file not found '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/xilinx_ip/data_ram/data_ram_sim_netlist.vhdl'. Please regenerate to continue.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim/data_ram.mif'
+INFO: [SIM-utils-43] Exported '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim/data_ram.coe'
+INFO: [SIM-utils-43] Exported '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_top_vlog.prj
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 8be32c0e75274db89ff01e49e80abbee --incr --debug typical --relax --mt 8 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:17534]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:18261]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:22335]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:22785]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:23620]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'O' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:24978]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:36552]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:42650]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:44039]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:48896]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:49221]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:49580]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'O' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:49597]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:51474]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:51477]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:53029]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.inst_ram.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 6464.535 ; gain = 56.566 ; free physical = 3066 ; free virtual = 12895
+run all
+==============================================================
+Test begin!
+        [  22000 ns] Test is running, debug_wb_pc = 0xbfc199a8
+        [  32000 ns] Test is running, debug_wb_pc = 0xbfc1a178
+----[  41935 ns] Number 8'd01 Functional Test Point PASS!!!
+        [  42000 ns] Test is running, debug_wb_pc = 0xbfc00438
+        [  52000 ns] Test is running, debug_wb_pc = 0xbfc61dd8
+        [  62000 ns] Test is running, debug_wb_pc = 0xbfc625a8
+        [  72000 ns] Test is running, debug_wb_pc = 0xbfc62d78
+        [  82000 ns] Test is running, debug_wb_pc = 0xbfc63548
+        [  92000 ns] Test is running, debug_wb_pc = 0xbfc63d18
+        [ 102000 ns] Test is running, debug_wb_pc = 0xbfc644e8
+        [ 112000 ns] Test is running, debug_wb_pc = 0xbfc64cb8
+        [ 122000 ns] Test is running, debug_wb_pc = 0xbfc65488
+        [ 132000 ns] Test is running, debug_wb_pc = 0xbfc65c58
+        [ 142000 ns] Test is running, debug_wb_pc = 0xbfc66428
+        [ 152000 ns] Test is running, debug_wb_pc = 0xbfc66bf8
+        [ 162000 ns] Test is running, debug_wb_pc = 0xbfc673c8
+----[ 169375 ns] Number 8'd02 Functional Test Point PASS!!!
+        [ 172000 ns] Test is running, debug_wb_pc = 0xbfc12b88
+        [ 182000 ns] Test is running, debug_wb_pc = 0xbfc13358
+        [ 192000 ns] Test is running, debug_wb_pc = 0xbfc13b28
+        [ 202000 ns] Test is running, debug_wb_pc = 0xbfc142f8
+        [ 212000 ns] Test is running, debug_wb_pc = 0xbfc14ac8
+        [ 222000 ns] Test is running, debug_wb_pc = 0xbfc15298
+        [ 232000 ns] Test is running, debug_wb_pc = 0xbfc15a68
+        [ 242000 ns] Test is running, debug_wb_pc = 0xbfc16238
+        [ 252000 ns] Test is running, debug_wb_pc = 0xbfc16a08
+        [ 262000 ns] Test is running, debug_wb_pc = 0xbfc171d8
+----[ 266715 ns] Number 8'd03 Functional Test Point PASS!!!
+        [ 272000 ns] Test is running, debug_wb_pc = 0xbfc338f0
+        [ 282000 ns] Test is running, debug_wb_pc = 0xbfc34304
+        [ 292000 ns] Test is running, debug_wb_pc = 0xbfc34d04
+        [ 302000 ns] Test is running, debug_wb_pc = 0xbfc35704
+        [ 312000 ns] Test is running, debug_wb_pc = 0xbfc36128
+        [ 322000 ns] Test is running, debug_wb_pc = 0xbfc36b28
+        [ 332000 ns] Test is running, debug_wb_pc = 0xbfc3753c
+        [ 342000 ns] Test is running, debug_wb_pc = 0xbfc37f3c
+        [ 352000 ns] Test is running, debug_wb_pc = 0xbfc3893c
+        [ 362000 ns] Test is running, debug_wb_pc = 0xbfc39360
+        [ 372000 ns] Test is running, debug_wb_pc = 0xbfc39c4c
+        [ 382000 ns] Test is running, debug_wb_pc = 0xbfc3a464
+        [ 392000 ns] Test is running, debug_wb_pc = 0xbfc3ac94
+        [ 402000 ns] Test is running, debug_wb_pc = 0xbfc3b4e8
+        [ 412000 ns] Test is running, debug_wb_pc = 0xbfc3bd00
+        [ 422000 ns] Test is running, debug_wb_pc = 0xbfc3c530
+        [ 432000 ns] Test is running, debug_wb_pc = 0xbfc3cd84
+        [ 442000 ns] Test is running, debug_wb_pc = 0xbfc3d59c
+        [ 452000 ns] Test is running, debug_wb_pc = 0xbfc3ddcc
+        [ 462000 ns] Test is running, debug_wb_pc = 0xbfc3e620
+        [ 472000 ns] Test is running, debug_wb_pc = 0xbfc3ee38
+        [ 482000 ns] Test is running, debug_wb_pc = 0xbfc3f668
+        [ 492000 ns] Test is running, debug_wb_pc = 0xbfc3ffd0
+        [ 502000 ns] Test is running, debug_wb_pc = 0xbfc409e4
+        [ 512000 ns] Test is running, debug_wb_pc = 0xbfc413e4
+        [ 522000 ns] Test is running, debug_wb_pc = 0xbfc41de4
+        [ 532000 ns] Test is running, debug_wb_pc = 0xbfc42808
+        [ 542000 ns] Test is running, debug_wb_pc = 0xbfc43204
+        [ 552000 ns] Test is running, debug_wb_pc = 0xbfc43c1c
+        [ 562000 ns] Test is running, debug_wb_pc = 0xbfc4461c
+        [ 572000 ns] Test is running, debug_wb_pc = 0xbfc4501c
+        [ 582000 ns] Test is running, debug_wb_pc = 0xbfc45a40
+----[ 584935 ns] Number 8'd04 Functional Test Point PASS!!!
+        [ 592000 ns] Test is running, debug_wb_pc = 0xbfc1c3a8
+        [ 602000 ns] Test is running, debug_wb_pc = 0xbfc1cb98
+        [ 612000 ns] Test is running, debug_wb_pc = 0xbfc1d418
+        [ 622000 ns] Test is running, debug_wb_pc = 0xbfc1dc44
+        [ 632000 ns] Test is running, debug_wb_pc = 0xbfc1e434
+        [ 642000 ns] Test is running, debug_wb_pc = 0xbfc1ecb4
+        [ 652000 ns] Test is running, debug_wb_pc = 0xbfc1f4e0
+        [ 662000 ns] Test is running, debug_wb_pc = 0xbfc1fcd0
+        [ 672000 ns] Test is running, debug_wb_pc = 0xbfc20550
+        [ 682000 ns] Test is running, debug_wb_pc = 0xbfc20d7c
+        [ 692000 ns] Test is running, debug_wb_pc = 0xbfc2156c
+        [ 702000 ns] Test is running, debug_wb_pc = 0xbfc21dec
+        [ 712000 ns] Test is running, debug_wb_pc = 0xbfc22754
+        [ 722000 ns] Test is running, debug_wb_pc = 0xbfc23154
+        [ 732000 ns] Test is running, debug_wb_pc = 0xbfc23b68
+        [ 742000 ns] Test is running, debug_wb_pc = 0xbfc24568
+        [ 752000 ns] Test is running, debug_wb_pc = 0xbfc24f68
+        [ 762000 ns] Test is running, debug_wb_pc = 0xbfc2598c
+        [ 772000 ns] Test is running, debug_wb_pc = 0xbfc2638c
+        [ 782000 ns] Test is running, debug_wb_pc = 0xbfc26da0
+        [ 792000 ns] Test is running, debug_wb_pc = 0xbfc277a0
+        [ 802000 ns] Test is running, debug_wb_pc = 0xbfc281a0
+        [ 812000 ns] Test is running, debug_wb_pc = 0xbfc28a34
+        [ 822000 ns] Test is running, debug_wb_pc = 0xbfc29260
+        [ 832000 ns] Test is running, debug_wb_pc = 0xbfc29a50
+        [ 842000 ns] Test is running, debug_wb_pc = 0xbfc2a2d0
+        [ 852000 ns] Test is running, debug_wb_pc = 0xbfc2aafc
+        [ 862000 ns] Test is running, debug_wb_pc = 0xbfc2b2ec
+        [ 872000 ns] Test is running, debug_wb_pc = 0xbfc2bb6c
+        [ 882000 ns] Test is running, debug_wb_pc = 0xbfc2c398
+        [ 892000 ns] Test is running, debug_wb_pc = 0xbfc2cb88
+        [ 902000 ns] Test is running, debug_wb_pc = 0xbfc2d408
+        [ 912000 ns] Test is running, debug_wb_pc = 0xbfc2dc34
+        [ 922000 ns] Test is running, debug_wb_pc = 0xbfc2e424
+----[ 924935 ns] Number 8'd05 Functional Test Point PASS!!!
+        [ 932000 ns] Test is running, debug_wb_pc = 0xbfc1ad98
+        [ 942000 ns] Test is running, debug_wb_pc = 0xbfc1b470
+        [ 952000 ns] Test is running, debug_wb_pc = 0xbfc1bb40
+----[ 956675 ns] Number 8'd06 Functional Test Point PASS!!!
+        [ 962000 ns] Test is running, debug_wb_pc = 0xbfc00aa4
+        [ 972000 ns] Test is running, debug_wb_pc = 0xbfc01274
+        [ 982000 ns] Test is running, debug_wb_pc = 0xbfc01a44
+        [ 992000 ns] Test is running, debug_wb_pc = 0xbfc02214
+        [1002000 ns] Test is running, debug_wb_pc = 0xbfc029e4
+        [1012000 ns] Test is running, debug_wb_pc = 0xbfc031b4
+        [1022000 ns] Test is running, debug_wb_pc = 0xbfc03984
+        [1032000 ns] Test is running, debug_wb_pc = 0xbfc04154
+        [1042000 ns] Test is running, debug_wb_pc = 0xbfc04924
+        [1052000 ns] Test is running, debug_wb_pc = 0xbfc050f4
+        [1062000 ns] Test is running, debug_wb_pc = 0xbfc058c4
+        [1072000 ns] Test is running, debug_wb_pc = 0xbfc06094
+        [1082000 ns] Test is running, debug_wb_pc = 0xbfc06864
+----[1084115 ns] Number 8'd07 Functional Test Point PASS!!!
+        [1092000 ns] Test is running, debug_wb_pc = 0xbfc06fa4
+        [1102000 ns] Test is running, debug_wb_pc = 0xbfc07774
+        [1112000 ns] Test is running, debug_wb_pc = 0xbfc07f44
+        [1122000 ns] Test is running, debug_wb_pc = 0xbfc08714
+        [1132000 ns] Test is running, debug_wb_pc = 0xbfc08ee4
+        [1142000 ns] Test is running, debug_wb_pc = 0xbfc096b4
+        [1152000 ns] Test is running, debug_wb_pc = 0xbfc09e84
+        [1162000 ns] Test is running, debug_wb_pc = 0xbfc0a654
+        [1172000 ns] Test is running, debug_wb_pc = 0xbfc0ae24
+        [1182000 ns] Test is running, debug_wb_pc = 0xbfc0b5f4
+        [1192000 ns] Test is running, debug_wb_pc = 0xbfc0bdc4
+        [1202000 ns] Test is running, debug_wb_pc = 0xbfc0c594
+----[1211555 ns] Number 8'd08 Functional Test Point PASS!!!
+        [1212000 ns] Test is running, debug_wb_pc = 0xbfc006d8
+        [1222000 ns] Test is running, debug_wb_pc = 0xbfc2f074
+        [1232000 ns] Test is running, debug_wb_pc = 0xbfc2f844
+        [1242000 ns] Test is running, debug_wb_pc = 0xbfc30014
+        [1252000 ns] Test is running, debug_wb_pc = 0xbfc307e4
+        [1262000 ns] Test is running, debug_wb_pc = 0xbfc30fb4
+        [1272000 ns] Test is running, debug_wb_pc = 0xbfc31784
+        [1282000 ns] Test is running, debug_wb_pc = 0xbfc31f54
+        [1292000 ns] Test is running, debug_wb_pc = 0xbfc32724
+        [1302000 ns] Test is running, debug_wb_pc = 0xbfc32ef4
+----[1308895 ns] Number 8'd09 Functional Test Point PASS!!!
+        [1312000 ns] Test is running, debug_wb_pc = 0xbfc45ec8
+        [1322000 ns] Test is running, debug_wb_pc = 0xbfc46698
+        [1332000 ns] Test is running, debug_wb_pc = 0xbfc46e68
+        [1342000 ns] Test is running, debug_wb_pc = 0xbfc47638
+        [1352000 ns] Test is running, debug_wb_pc = 0xbfc47e08
+        [1362000 ns] Test is running, debug_wb_pc = 0xbfc485d8
+        [1372000 ns] Test is running, debug_wb_pc = 0xbfc48da8
+        [1382000 ns] Test is running, debug_wb_pc = 0xbfc49578
+        [1392000 ns] Test is running, debug_wb_pc = 0xbfc49d48
+        [1402000 ns] Test is running, debug_wb_pc = 0xbfc4a518
+----[1406235 ns] Number 8'd10 Functional Test Point PASS!!!
+        [1412000 ns] Test is running, debug_wb_pc = 0xbfc0d0fc
+        [1422000 ns] Test is running, debug_wb_pc = 0xbfc0d8cc
+        [1432000 ns] Test is running, debug_wb_pc = 0xbfc0e09c
+        [1442000 ns] Test is running, debug_wb_pc = 0xbfc0e86c
+        [1452000 ns] Test is running, debug_wb_pc = 0xbfc0f03c
+        [1462000 ns] Test is running, debug_wb_pc = 0xbfc0f80c
+        [1472000 ns] Test is running, debug_wb_pc = 0xbfc0ffdc
+        [1482000 ns] Test is running, debug_wb_pc = 0xbfc107ac
+        [1492000 ns] Test is running, debug_wb_pc = 0xbfc10f7c
+        [1502000 ns] Test is running, debug_wb_pc = 0xbfc1174c
+----[1503575 ns] Number 8'd11 Functional Test Point PASS!!!
+        [1512000 ns] Test is running, debug_wb_pc = 0xbfc17ad0
+        [1522000 ns] Test is running, debug_wb_pc = 0xbfc181b0
+        [1532000 ns] Test is running, debug_wb_pc = 0xbfc18880
+----[1535315 ns] Number 8'd12 Functional Test Point PASS!!!
+        [1542000 ns] Test is running, debug_wb_pc = 0xbfc4ad5c
+        [1552000 ns] Test is running, debug_wb_pc = 0xbfc4b5b0
+        [1562000 ns] Test is running, debug_wb_pc = 0xbfc4be04
+        [1572000 ns] Test is running, debug_wb_pc = 0xbfc4c64c
+        [1582000 ns] Test is running, debug_wb_pc = 0xbfc4cea0
+        [1592000 ns] Test is running, debug_wb_pc = 0xbfc4d6d8
+        [1602000 ns] Test is running, debug_wb_pc = 0xbfc4df3c
+        [1612000 ns] Test is running, debug_wb_pc = 0xbfc4e790
+        [1622000 ns] Test is running, debug_wb_pc = 0xbfc4efc8
+        [1632000 ns] Test is running, debug_wb_pc = 0xbfc4f82c
+        [1642000 ns] Test is running, debug_wb_pc = 0xbfc50080
+        [1652000 ns] Test is running, debug_wb_pc = 0xbfc508c4
+        [1662000 ns] Test is running, debug_wb_pc = 0xbfc5111c
+        [1672000 ns] Test is running, debug_wb_pc = 0xbfc51970
+        [1682000 ns] Test is running, debug_wb_pc = 0xbfc521b8
+        [1692000 ns] Test is running, debug_wb_pc = 0xbfc52a0c
+        [1702000 ns] Test is running, debug_wb_pc = 0xbfc53244
+        [1712000 ns] Test is running, debug_wb_pc = 0xbfc53aa8
+        [1722000 ns] Test is running, debug_wb_pc = 0xbfc542fc
+----[1724335 ns] Number 8'd13 Functional Test Point PASS!!!
+        [1732000 ns] Test is running, debug_wb_pc = 0xbfc54a74
+        [1742000 ns] Test is running, debug_wb_pc = 0xbfc552c4
+        [1752000 ns] Test is running, debug_wb_pc = 0xbfc55af4
+        [1762000 ns] Test is running, debug_wb_pc = 0xbfc56324
+        [1772000 ns] Test is running, debug_wb_pc = 0xbfc56b54
+        [1782000 ns] Test is running, debug_wb_pc = 0xbfc57358
+        [1792000 ns] Test is running, debug_wb_pc = 0xbfc57bdc
+        [1802000 ns] Test is running, debug_wb_pc = 0xbfc583d8
+        [1812000 ns] Test is running, debug_wb_pc = 0xbfc58c08
+        [1822000 ns] Test is running, debug_wb_pc = 0xbfc59438
+        [1832000 ns] Test is running, debug_wb_pc = 0xbfc59c3c
+        [1842000 ns] Test is running, debug_wb_pc = 0xbfc5a4c0
+        [1852000 ns] Test is running, debug_wb_pc = 0xbfc5acbc
+        [1862000 ns] Test is running, debug_wb_pc = 0xbfc5b4ec
+        [1872000 ns] Test is running, debug_wb_pc = 0xbfc5bd1c
+        [1882000 ns] Test is running, debug_wb_pc = 0xbfc5c54c
+        [1892000 ns] Test is running, debug_wb_pc = 0xbfc5cd50
+        [1902000 ns] Test is running, debug_wb_pc = 0xbfc5d5a0
+        [1912000 ns] Test is running, debug_wb_pc = 0xbfc5ddd0
+        [1922000 ns] Test is running, debug_wb_pc = 0xbfc5e600
+        [1932000 ns] Test is running, debug_wb_pc = 0xbfc5ee30
+        [1942000 ns] Test is running, debug_wb_pc = 0xbfc5f634
+        [1952000 ns] Test is running, debug_wb_pc = 0xbfc5feb8
+        [1962000 ns] Test is running, debug_wb_pc = 0xbfc606b4
+        [1972000 ns] Test is running, debug_wb_pc = 0xbfc60ee4
+----[1981355 ns] Number 8'd14 Functional Test Point PASS!!!
+        [1982000 ns] Test is running, debug_wb_pc = 0xbfc00700
+        [1992000 ns] Test is running, debug_wb_pc = 0xbfc1276c
+----[1994375 ns] Number 8'd15 Functional Test Point PASS!!!
+----[1999435 ns] Number 8'd16 Functional Test Point PASS!!!
+        [2002000 ns] Test is running, debug_wb_pc = 0xbfc11d94
+----[2004495 ns] Number 8'd17 Functional Test Point PASS!!!
+----[2007335 ns] Number 8'd18 Functional Test Point PASS!!!
+----[2010775 ns] Number 8'd19 Functional Test Point PASS!!!
+        [2012000 ns] Test is running, debug_wb_pc = 0xbfc129b0
+----[2012395 ns] Number 8'd20 Functional Test Point PASS!!!
+$finish called at time : 2013955 ns : File "/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/testbench/tb_top.v" Line 209
+run: Time (s): cpu = 00:00:22 ; elapsed = 00:01:44 . Memory (MB): peak = 6485.105 ; gain = 20.570 ; free physical = 3021 ; free virtual = 12879
+run all
+==============================================================
+gettrace end!
+----Succeed in generating trace file!
+$finish called at time : 2014045 ns : File "/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/testbench/tb_top.v" Line 193
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:01:48 ; elapsed = 00:00:09 . Memory (MB): peak = 6499.113 ; gain = 5.004 ; free physical = 4180 ; free virtual = 13950
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim/data_ram.mif'
+INFO: [SIM-utils-43] Exported '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim/data_ram.coe'
+INFO: [SIM-utils-43] Exported '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim/inst_ram.mif'
+INFO: [SIM-utils-43] Exported '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_top_vlog.prj
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 8be32c0e75274db89ff01e49e80abbee --incr --debug typical --relax --mt 8 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:17534]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:18261]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:22335]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:22785]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:23620]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'O' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:24978]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:36552]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:42650]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:44039]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:48896]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:49221]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:49580]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'O' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:49597]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:51474]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:51477]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/rtl/CPU_gs132/gs132_verilog.v:53029]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/run_vivado/cpu132_gettrace/cpu132_gettrace.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.inst_ram.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.data_ram.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 6504.117 ; gain = 5.004 ; free physical = 4133 ; free virtual = 13901
+run all
+==============================================================
+Test begin!
+        [  22000 ns] Test is running, debug_wb_pc = 0xbfc199a8
+        [  32000 ns] Test is running, debug_wb_pc = 0xbfc1a178
+----[  41935 ns] Number 8'd01 Functional Test Point PASS!!!
+        [  42000 ns] Test is running, debug_wb_pc = 0xbfc00438
+        [  52000 ns] Test is running, debug_wb_pc = 0xbfc61dd8
+        [  62000 ns] Test is running, debug_wb_pc = 0xbfc625a8
+        [  72000 ns] Test is running, debug_wb_pc = 0xbfc62d78
+        [  82000 ns] Test is running, debug_wb_pc = 0xbfc63548
+        [  92000 ns] Test is running, debug_wb_pc = 0xbfc63d18
+        [ 102000 ns] Test is running, debug_wb_pc = 0xbfc644e8
+        [ 112000 ns] Test is running, debug_wb_pc = 0xbfc64cb8
+        [ 122000 ns] Test is running, debug_wb_pc = 0xbfc65488
+        [ 132000 ns] Test is running, debug_wb_pc = 0xbfc65c58
+        [ 142000 ns] Test is running, debug_wb_pc = 0xbfc66428
+        [ 152000 ns] Test is running, debug_wb_pc = 0xbfc66bf8
+        [ 162000 ns] Test is running, debug_wb_pc = 0xbfc673c8
+----[ 169375 ns] Number 8'd02 Functional Test Point PASS!!!
+        [ 172000 ns] Test is running, debug_wb_pc = 0xbfc12b88
+        [ 182000 ns] Test is running, debug_wb_pc = 0xbfc13358
+        [ 192000 ns] Test is running, debug_wb_pc = 0xbfc13b28
+        [ 202000 ns] Test is running, debug_wb_pc = 0xbfc142f8
+        [ 212000 ns] Test is running, debug_wb_pc = 0xbfc14ac8
+        [ 222000 ns] Test is running, debug_wb_pc = 0xbfc15298
+        [ 232000 ns] Test is running, debug_wb_pc = 0xbfc15a68
+        [ 242000 ns] Test is running, debug_wb_pc = 0xbfc16238
+        [ 252000 ns] Test is running, debug_wb_pc = 0xbfc16a08
+        [ 262000 ns] Test is running, debug_wb_pc = 0xbfc171d8
+----[ 266715 ns] Number 8'd03 Functional Test Point PASS!!!
+        [ 272000 ns] Test is running, debug_wb_pc = 0xbfc338f0
+        [ 282000 ns] Test is running, debug_wb_pc = 0xbfc34304
+        [ 292000 ns] Test is running, debug_wb_pc = 0xbfc34d04
+        [ 302000 ns] Test is running, debug_wb_pc = 0xbfc35704
+        [ 312000 ns] Test is running, debug_wb_pc = 0xbfc36128
+        [ 322000 ns] Test is running, debug_wb_pc = 0xbfc36b28
+        [ 332000 ns] Test is running, debug_wb_pc = 0xbfc3753c
+        [ 342000 ns] Test is running, debug_wb_pc = 0xbfc37f3c
+        [ 352000 ns] Test is running, debug_wb_pc = 0xbfc3893c
+        [ 362000 ns] Test is running, debug_wb_pc = 0xbfc39360
+        [ 372000 ns] Test is running, debug_wb_pc = 0xbfc39c4c
+        [ 382000 ns] Test is running, debug_wb_pc = 0xbfc3a464
+        [ 392000 ns] Test is running, debug_wb_pc = 0xbfc3ac94
+        [ 402000 ns] Test is running, debug_wb_pc = 0xbfc3b4e8
+        [ 412000 ns] Test is running, debug_wb_pc = 0xbfc3bd00
+        [ 422000 ns] Test is running, debug_wb_pc = 0xbfc3c530
+        [ 432000 ns] Test is running, debug_wb_pc = 0xbfc3cd84
+        [ 442000 ns] Test is running, debug_wb_pc = 0xbfc3d59c
+        [ 452000 ns] Test is running, debug_wb_pc = 0xbfc3ddcc
+        [ 462000 ns] Test is running, debug_wb_pc = 0xbfc3e620
+        [ 472000 ns] Test is running, debug_wb_pc = 0xbfc3ee38
+        [ 482000 ns] Test is running, debug_wb_pc = 0xbfc3f668
+        [ 492000 ns] Test is running, debug_wb_pc = 0xbfc3ffd0
+        [ 502000 ns] Test is running, debug_wb_pc = 0xbfc409e4
+        [ 512000 ns] Test is running, debug_wb_pc = 0xbfc413e4
+        [ 522000 ns] Test is running, debug_wb_pc = 0xbfc41de4
+        [ 532000 ns] Test is running, debug_wb_pc = 0xbfc42808
+        [ 542000 ns] Test is running, debug_wb_pc = 0xbfc43204
+        [ 552000 ns] Test is running, debug_wb_pc = 0xbfc43c1c
+        [ 562000 ns] Test is running, debug_wb_pc = 0xbfc4461c
+        [ 572000 ns] Test is running, debug_wb_pc = 0xbfc4501c
+        [ 582000 ns] Test is running, debug_wb_pc = 0xbfc45a40
+----[ 584935 ns] Number 8'd04 Functional Test Point PASS!!!
+        [ 592000 ns] Test is running, debug_wb_pc = 0xbfc1c3a8
+        [ 602000 ns] Test is running, debug_wb_pc = 0xbfc1cb98
+        [ 612000 ns] Test is running, debug_wb_pc = 0xbfc1d418
+        [ 622000 ns] Test is running, debug_wb_pc = 0xbfc1dc44
+        [ 632000 ns] Test is running, debug_wb_pc = 0xbfc1e434
+        [ 642000 ns] Test is running, debug_wb_pc = 0xbfc1ecb4
+        [ 652000 ns] Test is running, debug_wb_pc = 0xbfc1f4e0
+        [ 662000 ns] Test is running, debug_wb_pc = 0xbfc1fcd0
+        [ 672000 ns] Test is running, debug_wb_pc = 0xbfc20550
+        [ 682000 ns] Test is running, debug_wb_pc = 0xbfc20d7c
+        [ 692000 ns] Test is running, debug_wb_pc = 0xbfc2156c
+        [ 702000 ns] Test is running, debug_wb_pc = 0xbfc21dec
+        [ 712000 ns] Test is running, debug_wb_pc = 0xbfc22754
+        [ 722000 ns] Test is running, debug_wb_pc = 0xbfc23154
+        [ 732000 ns] Test is running, debug_wb_pc = 0xbfc23b68
+        [ 742000 ns] Test is running, debug_wb_pc = 0xbfc24568
+        [ 752000 ns] Test is running, debug_wb_pc = 0xbfc24f68
+        [ 762000 ns] Test is running, debug_wb_pc = 0xbfc2598c
+        [ 772000 ns] Test is running, debug_wb_pc = 0xbfc2638c
+        [ 782000 ns] Test is running, debug_wb_pc = 0xbfc26da0
+        [ 792000 ns] Test is running, debug_wb_pc = 0xbfc277a0
+        [ 802000 ns] Test is running, debug_wb_pc = 0xbfc281a0
+        [ 812000 ns] Test is running, debug_wb_pc = 0xbfc28a34
+        [ 822000 ns] Test is running, debug_wb_pc = 0xbfc29260
+        [ 832000 ns] Test is running, debug_wb_pc = 0xbfc29a50
+        [ 842000 ns] Test is running, debug_wb_pc = 0xbfc2a2d0
+        [ 852000 ns] Test is running, debug_wb_pc = 0xbfc2aafc
+        [ 862000 ns] Test is running, debug_wb_pc = 0xbfc2b2ec
+        [ 872000 ns] Test is running, debug_wb_pc = 0xbfc2bb6c
+        [ 882000 ns] Test is running, debug_wb_pc = 0xbfc2c398
+        [ 892000 ns] Test is running, debug_wb_pc = 0xbfc2cb88
+        [ 902000 ns] Test is running, debug_wb_pc = 0xbfc2d408
+        [ 912000 ns] Test is running, debug_wb_pc = 0xbfc2dc34
+        [ 922000 ns] Test is running, debug_wb_pc = 0xbfc2e424
+----[ 924935 ns] Number 8'd05 Functional Test Point PASS!!!
+        [ 932000 ns] Test is running, debug_wb_pc = 0xbfc1ad98
+        [ 942000 ns] Test is running, debug_wb_pc = 0xbfc1b470
+        [ 952000 ns] Test is running, debug_wb_pc = 0xbfc1bb40
+----[ 956675 ns] Number 8'd06 Functional Test Point PASS!!!
+        [ 962000 ns] Test is running, debug_wb_pc = 0xbfc00aa4
+        [ 972000 ns] Test is running, debug_wb_pc = 0xbfc01274
+        [ 982000 ns] Test is running, debug_wb_pc = 0xbfc01a44
+        [ 992000 ns] Test is running, debug_wb_pc = 0xbfc02214
+        [1002000 ns] Test is running, debug_wb_pc = 0xbfc029e4
+        [1012000 ns] Test is running, debug_wb_pc = 0xbfc031b4
+        [1022000 ns] Test is running, debug_wb_pc = 0xbfc03984
+        [1032000 ns] Test is running, debug_wb_pc = 0xbfc04154
+        [1042000 ns] Test is running, debug_wb_pc = 0xbfc04924
+        [1052000 ns] Test is running, debug_wb_pc = 0xbfc050f4
+        [1062000 ns] Test is running, debug_wb_pc = 0xbfc058c4
+        [1072000 ns] Test is running, debug_wb_pc = 0xbfc06094
+        [1082000 ns] Test is running, debug_wb_pc = 0xbfc06864
+----[1084115 ns] Number 8'd07 Functional Test Point PASS!!!
+        [1092000 ns] Test is running, debug_wb_pc = 0xbfc06fa4
+        [1102000 ns] Test is running, debug_wb_pc = 0xbfc07774
+        [1112000 ns] Test is running, debug_wb_pc = 0xbfc07f44
+        [1122000 ns] Test is running, debug_wb_pc = 0xbfc08714
+        [1132000 ns] Test is running, debug_wb_pc = 0xbfc08ee4
+        [1142000 ns] Test is running, debug_wb_pc = 0xbfc096b4
+        [1152000 ns] Test is running, debug_wb_pc = 0xbfc09e84
+        [1162000 ns] Test is running, debug_wb_pc = 0xbfc0a654
+        [1172000 ns] Test is running, debug_wb_pc = 0xbfc0ae24
+        [1182000 ns] Test is running, debug_wb_pc = 0xbfc0b5f4
+        [1192000 ns] Test is running, debug_wb_pc = 0xbfc0bdc4
+        [1202000 ns] Test is running, debug_wb_pc = 0xbfc0c594
+----[1211555 ns] Number 8'd08 Functional Test Point PASS!!!
+        [1212000 ns] Test is running, debug_wb_pc = 0xbfc006d8
+        [1222000 ns] Test is running, debug_wb_pc = 0xbfc2f074
+        [1232000 ns] Test is running, debug_wb_pc = 0xbfc2f844
+        [1242000 ns] Test is running, debug_wb_pc = 0xbfc30014
+        [1252000 ns] Test is running, debug_wb_pc = 0xbfc307e4
+        [1262000 ns] Test is running, debug_wb_pc = 0xbfc30fb4
+        [1272000 ns] Test is running, debug_wb_pc = 0xbfc31784
+        [1282000 ns] Test is running, debug_wb_pc = 0xbfc31f54
+        [1292000 ns] Test is running, debug_wb_pc = 0xbfc32724
+        [1302000 ns] Test is running, debug_wb_pc = 0xbfc32ef4
+----[1308895 ns] Number 8'd09 Functional Test Point PASS!!!
+        [1312000 ns] Test is running, debug_wb_pc = 0xbfc45ec8
+        [1322000 ns] Test is running, debug_wb_pc = 0xbfc46698
+        [1332000 ns] Test is running, debug_wb_pc = 0xbfc46e68
+        [1342000 ns] Test is running, debug_wb_pc = 0xbfc47638
+        [1352000 ns] Test is running, debug_wb_pc = 0xbfc47e08
+        [1362000 ns] Test is running, debug_wb_pc = 0xbfc485d8
+        [1372000 ns] Test is running, debug_wb_pc = 0xbfc48da8
+        [1382000 ns] Test is running, debug_wb_pc = 0xbfc49578
+        [1392000 ns] Test is running, debug_wb_pc = 0xbfc49d48
+        [1402000 ns] Test is running, debug_wb_pc = 0xbfc4a518
+----[1406235 ns] Number 8'd10 Functional Test Point PASS!!!
+        [1412000 ns] Test is running, debug_wb_pc = 0xbfc0d0fc
+        [1422000 ns] Test is running, debug_wb_pc = 0xbfc0d8cc
+        [1432000 ns] Test is running, debug_wb_pc = 0xbfc0e09c
+        [1442000 ns] Test is running, debug_wb_pc = 0xbfc0e86c
+        [1452000 ns] Test is running, debug_wb_pc = 0xbfc0f03c
+        [1462000 ns] Test is running, debug_wb_pc = 0xbfc0f80c
+        [1472000 ns] Test is running, debug_wb_pc = 0xbfc0ffdc
+        [1482000 ns] Test is running, debug_wb_pc = 0xbfc107ac
+        [1492000 ns] Test is running, debug_wb_pc = 0xbfc10f7c
+        [1502000 ns] Test is running, debug_wb_pc = 0xbfc1174c
+----[1503575 ns] Number 8'd11 Functional Test Point PASS!!!
+        [1512000 ns] Test is running, debug_wb_pc = 0xbfc17ad0
+        [1522000 ns] Test is running, debug_wb_pc = 0xbfc181b0
+        [1532000 ns] Test is running, debug_wb_pc = 0xbfc18880
+----[1535315 ns] Number 8'd12 Functional Test Point PASS!!!
+        [1542000 ns] Test is running, debug_wb_pc = 0xbfc4ad5c
+        [1552000 ns] Test is running, debug_wb_pc = 0xbfc4b5b0
+        [1562000 ns] Test is running, debug_wb_pc = 0xbfc4be04
+        [1572000 ns] Test is running, debug_wb_pc = 0xbfc4c64c
+        [1582000 ns] Test is running, debug_wb_pc = 0xbfc4cea0
+        [1592000 ns] Test is running, debug_wb_pc = 0xbfc4d6d8
+        [1602000 ns] Test is running, debug_wb_pc = 0xbfc4df3c
+        [1612000 ns] Test is running, debug_wb_pc = 0xbfc4e790
+        [1622000 ns] Test is running, debug_wb_pc = 0xbfc4efc8
+        [1632000 ns] Test is running, debug_wb_pc = 0xbfc4f82c
+        [1642000 ns] Test is running, debug_wb_pc = 0xbfc50080
+        [1652000 ns] Test is running, debug_wb_pc = 0xbfc508c4
+        [1662000 ns] Test is running, debug_wb_pc = 0xbfc5111c
+        [1672000 ns] Test is running, debug_wb_pc = 0xbfc51970
+        [1682000 ns] Test is running, debug_wb_pc = 0xbfc521b8
+        [1692000 ns] Test is running, debug_wb_pc = 0xbfc52a0c
+        [1702000 ns] Test is running, debug_wb_pc = 0xbfc53244
+        [1712000 ns] Test is running, debug_wb_pc = 0xbfc53aa8
+        [1722000 ns] Test is running, debug_wb_pc = 0xbfc542fc
+----[1724335 ns] Number 8'd13 Functional Test Point PASS!!!
+        [1732000 ns] Test is running, debug_wb_pc = 0xbfc54a74
+        [1742000 ns] Test is running, debug_wb_pc = 0xbfc552c4
+        [1752000 ns] Test is running, debug_wb_pc = 0xbfc55af4
+        [1762000 ns] Test is running, debug_wb_pc = 0xbfc56324
+        [1772000 ns] Test is running, debug_wb_pc = 0xbfc56b54
+        [1782000 ns] Test is running, debug_wb_pc = 0xbfc57358
+        [1792000 ns] Test is running, debug_wb_pc = 0xbfc57bdc
+        [1802000 ns] Test is running, debug_wb_pc = 0xbfc583d8
+        [1812000 ns] Test is running, debug_wb_pc = 0xbfc58c08
+        [1822000 ns] Test is running, debug_wb_pc = 0xbfc59438
+        [1832000 ns] Test is running, debug_wb_pc = 0xbfc59c3c
+        [1842000 ns] Test is running, debug_wb_pc = 0xbfc5a4c0
+        [1852000 ns] Test is running, debug_wb_pc = 0xbfc5acbc
+        [1862000 ns] Test is running, debug_wb_pc = 0xbfc5b4ec
+        [1872000 ns] Test is running, debug_wb_pc = 0xbfc5bd1c
+        [1882000 ns] Test is running, debug_wb_pc = 0xbfc5c54c
+        [1892000 ns] Test is running, debug_wb_pc = 0xbfc5cd50
+        [1902000 ns] Test is running, debug_wb_pc = 0xbfc5d5a0
+        [1912000 ns] Test is running, debug_wb_pc = 0xbfc5ddd0
+        [1922000 ns] Test is running, debug_wb_pc = 0xbfc5e600
+        [1932000 ns] Test is running, debug_wb_pc = 0xbfc5ee30
+        [1942000 ns] Test is running, debug_wb_pc = 0xbfc5f634
+        [1952000 ns] Test is running, debug_wb_pc = 0xbfc5feb8
+        [1962000 ns] Test is running, debug_wb_pc = 0xbfc606b4
+        [1972000 ns] Test is running, debug_wb_pc = 0xbfc60ee4
+----[1981355 ns] Number 8'd14 Functional Test Point PASS!!!
+        [1982000 ns] Test is running, debug_wb_pc = 0xbfc00700
+        [1992000 ns] Test is running, debug_wb_pc = 0xbfc1276c
+----[1994375 ns] Number 8'd15 Functional Test Point PASS!!!
+----[1999435 ns] Number 8'd16 Functional Test Point PASS!!!
+        [2002000 ns] Test is running, debug_wb_pc = 0xbfc11d94
+----[2004495 ns] Number 8'd17 Functional Test Point PASS!!!
+----[2007335 ns] Number 8'd18 Functional Test Point PASS!!!
+----[2010775 ns] Number 8'd19 Functional Test Point PASS!!!
+        [2012000 ns] Test is running, debug_wb_pc = 0xbfc129b0
+----[2012395 ns] Number 8'd20 Functional Test Point PASS!!!
+$finish called at time : 2013955 ns : File "/home/misukee/vivado/augmips/ucas_lab/ucas17_18_20180730/lab/lab3/lab3-1/ucas_CDE_v0.3_20180730/mylab3-1/ucas_CDE_v0.3_20180730/cpu132_gettrace/testbench/tb_top.v" Line 209
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:01:47 . Memory (MB): peak = 6504.117 ; gain = 0.000 ; free physical = 4109 ; free virtual = 13908
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  3 11:58:47 2019...

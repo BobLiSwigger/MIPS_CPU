@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Dec  1 10:42:54 2019
+# Process ID: 3516
+# Current directory: /home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/misukee/repositories/CREATECPU/mylab3-1/ucas_CDE_v0.3_20180730/mycpu/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00.69 ; elapsed = 00:00:06 . Memory (MB): peak = 384.285 ; gain = 0.000 ; free physical = 4200 ; free virtual = 13997
+INFO: [Common 17-206] Exiting Webtalk at Sun Dec  1 10:43:00 2019...
